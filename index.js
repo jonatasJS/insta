@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
         const name = document.getElementById('name').value
         const senha = document.getElementById('senha').value
     
-        window.location.href = '/result?name'+name+'?senha='+senha
+        window.location.href = '/result/'+name+'?senha='+senha
       })
     </script>
   `
@@ -21,8 +21,8 @@ app.get('/', (req, res) => {
   res.send(body)
 })
 
-app.get('/result', async (req, res) => {
-  const username = await req.query.name
+app.get('/result/:name', async (req, res) => {
+  const username = await req.parms.name
   const password = await req.query.senha
 
   console.log(username)
