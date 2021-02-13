@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/result/:name', async (req, res) => {
-  const username = await req.parms.name
+  const username = await req.params.name
   const password = await req.query.senha
 
   console.log(username)
