@@ -8,7 +8,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node ."
+    "start": "npm i && node ."
   },
   "keywords": [],
   "author": "",
