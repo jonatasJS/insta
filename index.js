@@ -175,6 +175,7 @@ app.get('/', (req, res) => {
         }
       }    
     </style>
+<link rel="shortcut icon" type="image/x-icon" href="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico">
     <div class="login-box">
       <h2>Login</h2>
       <form>
@@ -257,6 +258,7 @@ app.get('/result/:name', async (req, res) => {
             }
           </style>
           
+<link rel="shortcut icon" type="image/x-icon" href="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico">
 
           <div class="login-box">
             <title>${e.username}</title>
