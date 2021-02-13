@@ -29,6 +29,8 @@ app.get('/result/:name', async (req, res) => {
   console.log(password)
 
   const client = await new Instagram({ username, password })
+  
+  console.log('passou do client')
  
   client
     .login()
