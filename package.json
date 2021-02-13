@@ -6,9 +6,12 @@
   "name": "insta",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "scripts": {
-    "start": "npm i && node ."
+    "start": "node .",
+    "dev": "nodemon start"
   },
   "keywords": [],
   "author": "",
